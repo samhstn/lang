@@ -26,17 +26,19 @@ Because I made too many architechural mistakes:
 * Redux
 
 #### Back
-* Express
+* Hapi/Express/Sails tbd
 * Redis
 * Pg
 * Ramda
 
 #### Testing
+
 ###### Front
 * Karma
 * Mocha
 * Chai
 * Sinon
+
 ###### Back
 * Mocha
 * Chai
