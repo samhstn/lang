@@ -26,7 +26,7 @@ Because I made too many architechural mistakes:
 * Redux
 
 #### Back
-* Hapi/Express/Sails tbd
+* Hapi
 * Redis
 * Pg
 * Ramda
@@ -43,3 +43,4 @@ Because I made too many architechural mistakes:
 * Mocha
 * Chai
 * Sinon
+* Shot
