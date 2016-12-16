@@ -39,6 +39,7 @@
     "inert": "^4.0.3",
     "joi": "^10.0.6",
     "karma-mocha-reporter": "^2.2.1",
+    "karma-riot": "^2.0.0",
     "pg": "^6.1.2",
     "ramda": "^0.22.1",
     "redis": "^2.6.3",

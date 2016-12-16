@@ -13,11 +13,12 @@ Because I made too many architechural mistakes:
  - There was too much of a mix between promises and callbacks
  - There should have been more planning with a folder structure and what functions I will need
  - There should be far more planning in terms of user experience and wire framing
- - Too much switching between frameworks (vanilla everything, react, riot, hapi, ramda), these should have been decided from the outset
+ - Too much switching between frameworks (from vanilla everything to react, then riot, then switching to hapi), these should have been decided from the outset
+ - The tests did not describe thir functions well enough
 
  So, I am considering the old project as my spike
 
- New Project stack:
+## New Project stack:
 
 #### Front
 * Rollup with gulp for front end
