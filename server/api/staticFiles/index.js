@@ -8,7 +8,7 @@ exports.register = (server, options, next) => {
     {
       path: '/resources/{param*}',
       method: 'get',
-      handler: { directory: { path: 'client' } }
+      handler: { directory: { path: 'public' } }
     }
   ]);  
   
