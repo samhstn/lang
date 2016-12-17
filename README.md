@@ -23,7 +23,7 @@ Because I made too many architechural mistakes:
 #### Front
 * Rollup with gulp for front end
 * Ramda
-* Riot
+* React
 * Redux
 
 #### Back
