@@ -1,3 +1,5 @@
 node_modules/*
 !node_modules/app
 !node_modules/config
+public/build*
+npm-debug.log
