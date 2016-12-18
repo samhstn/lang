@@ -5,7 +5,7 @@ const api = require('./api');
 
 const server = new Hapi.Server();
 
-server.connect(config);
+server.connection(config);
 
 server.register(api, (err) => assert(!err, new Error(err)));
 
