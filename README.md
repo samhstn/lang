@@ -1,10 +1,22 @@
 # LANG
 
-Another language learning app
+### What
+
+Another language learning app.
+
+I have used a few of the big language learning apps, but have been frustrated with the lack of customisability or features.
+
+My favorite language learning app is [Anki](https://github.com/dae/anki) which looks to employ [srs](https://eastasiastudent.net/study/what-is-srs/) better than any other application and has amazing customisability.
+
+But it has a steep learning curve and only becomes an amazing tool after spending hours reading the rather long [documentation](https://apps.ankiweb.net/docs/manual.html#studying).
+
+Some tooling is clunky to use and really isn't user friendly.
+
+### Why
 
 Why am I redoing everything again? Havn't I started the same project [here](https://github.com/shouston3/le)?
 
-Because I made too many architechural mistakes:
+I am redoing this project because I made too many architechural mistakes:
 
  - The code style was too inconsistent
  - There was too much of a mix in the levels of abstraction
@@ -16,73 +28,8 @@ Because I made too many architechural mistakes:
  - Too much switching between frameworks (from vanilla everything to react, then riot, then switching to hapi), these should have been decided from the outset
  - The tests did not describe thir functions well enough
 
- So, I am considering the old project as my spike
+So, I am considering the old project as my spike. I also feel that redoing everything will make for better code quality and won't take that long.
 
-## New Project stack:
+### How
 
-#### Front
-* Rollup with gulp for front end
-* Ramda
-* React
-* Redux
-
-#### Back
-* Hapi
-* Redis
-* Pg
-* Ramda
-
-#### Testing
-
-###### Front
-* Karma
-* Mocha
-* Chai
-* Sinon
-
-###### Back
-* Mocha
-* Chai
-* Sinon
-* Shot
-
-## Definitions
-
-* question: The question
-* answer: The answer to the question
-* hint (optional): An added help to get the answer from the question
-* card: The grouping of the question, answer and hint
-* deck: The grouping of cards
-
-## User stories
-* As a first time user without a vocab list, I would like to be able to be tested on an initial deck
-* As a first time user, I would like to be able to register to store my own decks
-* As a registered user, I would like to be able to log in and view my decks
-* As a user, I would like to be able to be tested on saved decks
-* As a user being tested, I would like to be able to see a question, click to get the answer and say if I got it right, wrong or not sure.
-* As a user, I would like to know how the system works in terms of repeated viewing of words I got right or wrong.
-
-## Endpoints
-
-* Create deck (affects only name and description) - post :: /deck
-* Edit deck (affects only name and description) - put :: /deck
-* Delete deck - delete :: /deck
-* Get all decks (less info than for a specific deck) - get :: /deck
-* Get specific deck - get :: /deck/{deck\_id}
-* Create word - post :: /word
-* Edit word - put :: /word
-* Delete word - delete :: /word
-* Edit settings (can be for a specific deck) - put :: /settings
-* Update deck results - put :: /result
-
-## Views
-
-* demo (play around with a few default decks)
-* about (explaining how it all works)
-* login (be able to log in to your account)
-* register (be able to register for an account)
-* dashboard (a summary of your account with a list of all decks)
-* edit (editing a specific deck)
-* practice (practicing on a specific deck)
-* settings (change settings for all decks or a specific deck)
-
+To get started read through the `wiki`. I have decided to keep the wiki in `.md` format as to be able to keep track of changes to documentation
