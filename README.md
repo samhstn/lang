@@ -32,4 +32,4 @@ So, I am considering the old project as my spike. I also feel that redoing every
 
 ### How
 
-To get started read through the `wiki`. I have decided to keep the wiki in `.md` format as to be able to keep track of changes to documentation
+To get started read through the [`wiki`](https://github.com/shouston3/lang/blob/master/wiki/index.md). I have decided to keep the wiki in `.md` format as to be able to keep track of changes to documentation
