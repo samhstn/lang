@@ -8,11 +8,12 @@
 
 ## Definitions
 
-* question: The question
-* answer: The answer to the question
-* hint (optional): An added help to get the answer from the question
+* question: The question side of a card
+* answer: The answer side of a card
+* hint: A clue shown on the answer side of the card (optional)
 * card: The grouping of the question, answer and hint
 * deck: The grouping of cards
+* tag: A label attached to each card
 
 ## User stories
 * As a first time user without a vocab list, I would like to be able to be tested on an initial deck
